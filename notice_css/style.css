@@ -1,0 +1,71 @@
+.car
+{
+  accent-color: red;
+}
+.color
+{
+width: 220px;
+  height: 300px;
+  border: 1px solid black; 
+  display:flex ;
+  align-items: center;
+
+
+}
+.color div
+{
+
+	flex: 1;
+  border: 1px solid black;
+  display: flex;
+  align-self: strech;
+}
+.square
+{
+
+background-color:deepskyblue;
+height:30px;
+width:30px;
+position:relative;
+  animation:mymove 3s 3;
+}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 250px;}
+}
+.asp
+{
+	aspect-ratio:16/9;
+	background-color:pink;
+	width:100px;
+	text-align:center;
+}
+
+
+.area    
+{background-image: conic-gradient(purple, darkcyan, magenta);
+	background-position:center;
+  height:400px;
+  width:400px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+ img
+{
+height:400px;
+  width:400px;
+}
+
+ .transbox
+{
+   background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  padding: 20px;
+  margin: 30px;
+  font-weight: bold;
+}
+
+ 
